@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+// tudo ok por aqui, somente esse /api/users que achei meio desnecessario. poderia ser somente api ou users
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
@@ -49,3 +49,4 @@ public class UserController {
         return ResponseEntity.noContent().build();
     }
 }
+
