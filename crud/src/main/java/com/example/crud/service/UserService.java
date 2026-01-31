@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
+// esse service ta bem basico
 @Service
 public class UserService {
 
@@ -31,3 +31,4 @@ public class UserService {
 	    }
 	
 }
+
